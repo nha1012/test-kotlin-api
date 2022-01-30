@@ -22,7 +22,14 @@ dependencies {
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
-	
+	//api test
+
+	implementation("io.springfox:springfox-swagger-ui:3.0.0")
+	implementation("io.springfox:springfox-swagger2:3.0.0")
+	implementation("org.springdoc:springdoc-openapi-ui:1.6.4")
+	implementation("org.springdoc:springdoc-openapi-data-rest:1.6.3")
+	implementation("org.springdoc:springdoc-openapi-kotlin:1.6.3")
+
 	developmentOnly("org.springframework.boot:spring-boot-devtools")
 	runtimeOnly("com.h2database:h2")
 	runtimeOnly("org.postgresql:postgresql")
